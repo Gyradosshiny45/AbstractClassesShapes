@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>360</x>
+      <y>20</y>
+      <w>170</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>/Shape/
+
+bg=MAGENTA</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>360</x>
+      <y>50</y>
+      <w>170</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lw=2
++area() double
+bg=MAGENTA</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>360</x>
+      <y>90</y>
+      <w>170</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lw=2
++perimeter() double
+bg=MAGENTA</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>360</x>
+      <y>130</y>
+      <w>170</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lw=2
++computeArea()
+bg=MAGENTA</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>430</x>
+      <y>170</y>
+      <w>30</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>110</x>
+      <y>200</y>
+      <w>350</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;70.0;330.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>430</x>
+      <y>200</y>
+      <w>340</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>320.0;70.0;10.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>340</x>
+      <y>280</y>
+      <w>220</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lw=2
+Rectangle
+bg=ORANGE</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>340</x>
+      <y>320</y>
+      <w>220</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>width: double
+length: double
+--
+Rectangle(double width, double length)
+getWidth(): return
+setWidth(): return
+getLength(): return
+setLength(): return
+--
+area() double
+perimiter() double
+computeArea() double
+toString()
+
+
+bg=ORANGE</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>10</x>
+      <y>280</y>
+      <w>220</w>
+      <h>290</h>
+    </coordinates>
+    <panel_attributes>Circle
+
+--
+radius: double
+--
+Circle(double radius)
+getRadius(): return
+setRadius(): return
+--
+area()double
+perimeter()double
+computeArea()double
+toString()
+bg=CYAN</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>640</x>
+      <y>280</y>
+      <w>230</w>
+      <h>290</h>
+    </coordinates>
+    <panel_attributes>Triangle
+
+--
+-length_side1()double
+-length_side2()double
+-length_side3()double
+--
+-Triangle(length_side1, length_side2, length_side3)
+-getLength_side1()
+-setLength_side1()
+-getLength_side2()
+-setLength_side2()
+-getLength_side3()
+-setLength_side3()
+--
+area()double
+perimeter()double
+computeArea()double
+toString()
+bg=GREEN</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
